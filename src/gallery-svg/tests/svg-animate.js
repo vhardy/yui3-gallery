@@ -2,18 +2,7 @@
  * Copyright (c) Vincent Hardy 2009. All rights reserved
  * ===========================================================================*/
 
-YUI({
-    gallery: 'gallery-20010.10.12-22',
-    modules: {
-        'gallery-svg': {
-            fullpath: '../../../build/gallery-svg/gallery-svg.js',
-            requires: ["gallery-svg"],
-            optional: [],
-            supersedes: []
-        }
-
-    }
-}).use('node', 'event', 'dom', 'anim', 'gallery-svg', function (Y) {
+YUI({gallery: 'gallery-2010.10.15-19-32'}).use('gallery-svg', function(Y) {
     var Animate = Y.Animate, Easing = Y.Easing, firstAnim;
 
     // =================================================================
